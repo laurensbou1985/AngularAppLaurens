@@ -1,0 +1,25 @@
+#navigatie {
+    text-align:center;
+}
+
+.menu {
+    display:flex;  
+    list-style:none;
+    text-align:center;
+    background-color:lightgrey;
+}
+
+.menu li {
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:black;
+}
+
+.menu li a:hover, .menu li a:active, .menu li a:visited {
+    background-color:grey;
+}
